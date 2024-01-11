@@ -20,10 +20,11 @@ ________________________________________________________________________________
 
 How to Use: 
 
-1.) Open website URL: 	or just use php artisan serve
+1.) Open website URL: 	or use php artisan serve
+    1.1.) To run locally, use php artisan serve --host=*insertIPAddress* --port=8000
 2.) Create an account for the website
-3.) Log in to your account and you will be able to access all the features that are available
-to you based on the role you pick.
+3.) Log in to your account and you will be able to access all the available features
+based on the role you pick.
 _______________________________________________________________________________________________________
 
 Features:
@@ -46,7 +47,7 @@ Features:
 3.) Real-time view of Latest Queue Number and amount of People waiting
 
 ------------------------------
-	Tables/Tellers
+	    Tables/Tellers
 ------------------------------
 1.) Dequeues from the queue waiting
 2.) Error catcher when teller dequeues when no one is waiting'
